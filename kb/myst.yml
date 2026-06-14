@@ -1,0 +1,15 @@
+version: 1
+project:
+  title: Neuromorphic Systems Knowledge Base
+  toc: _toc.yml
+# site:
+#   title: Neuromorphic Systems Knowledge Base
+#   template: book-theme
+#   options:
+#     folders: true
+
+site:
+  template: book-theme
+  options:
+    folders: true
+    style: ./style.css
