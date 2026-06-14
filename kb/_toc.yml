@@ -1,14 +1,15 @@
 format: jb-book
 root: index.md
+
 chapters:
-  - file: foundations/index.md
-  - file: neuron-models/index.md
-  - file: plasticity/index.md
-  - file: cultures-mea/index.md
-  - file: memristors/index.md
-  - file: rram-devices/index.md
-  - file: neuromorphic-hw/index.md
-  - file: network-dynamics/index.md
-  - file: connectomics/index.md
-  - file: cortex-physiology/index.md
-  - file: extra/index.md
+  - file: papers/foundations/index.md
+  - file: papers/neuron-models/index.md
+  - file: papers/plasticity/index.md
+  - file: papers/cultures-mea/index.md
+  - file: papers/memristors/index.md
+  - file: papers/rram-devices/index.md
+  - file: papers/neuromorphic-hw/index.md
+  - file: papers/network-dynamics/index.md
+  - file: papers/connectomics/index.md
+  - file: papers/cortex-physiology/index.md
+  - file: papers/extra/index.md

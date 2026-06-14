@@ -1,15 +1,25 @@
 version: 1
+
 project:
-  title: Neuromorphic Systems Knowledge Base
-  toc: _toc.yml
-# site:
-#   title: Neuromorphic Systems Knowledge Base
-#   template: book-theme
-#   options:
-#     folders: true
+  title: Neural Engine
+  exports:
+    - format: pdf
+      template: plain_latex
+      output: exports/neural-engine.pdf
 
 site:
   template: book-theme
   options:
     folders: true
     style: ./style.css
+    favicon: assets/favicon.png
+    logo: assets/favicon.png
+
+sphinx:
+  config:
+    html_context:
+      default_mode: light
+
+    html_theme_options:
+      navbar_end:
+        - navbar-icon-links

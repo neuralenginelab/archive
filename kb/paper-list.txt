@@ -1,0 +1,183 @@
+# Segregated paper list from the raw dump
+
+Deduplicated and grouped by topic. Within each section, entries are ordered from newest to oldest.
+
+## 2) Brain biology and synaptic fundamentals
+
+- **2010** — Caporale N, Dan Y. *Spike-timing-dependent plasticity: a Hebbian learning rule*. Annual Review of Neuroscience. `copyref`
+- **2005** — Volterra A, Meldolesi J. *Astrocytes, from brain glue to communication elements: the revolution continues*. Nature Reviews Neuroscience. `copyref`
+- **2005** — Parpura V et al. *Glutamate-mediated astrocyte–neuron signalling*. Nature. `copyref`
+- **2004** — Malenka RC, Bear MF. *LTP and LTD: an embarrassment of riches*. Neuron. `copyref`
+- **2004** — Abbott LF, Nelson SB. *Synaptic plasticity: taming the beast*. Nature Neuroscience. `copyref`
+- **2000** — Martin SJ, Grimwood PD, Morris RGM. *Synaptic plasticity and memory: an evaluation of the hypothesis*. Annual Review of Neuroscience. `copyref`
+- **2000** — LeDoux JE. *Emotion circuits in the brain*. Annual Review of Neuroscience. `copyref`
+- **1999** — Araque A, Parpura V, Sanzgiri RP, Haydon PG. *Tripartite synapses: glia, the unacknowledged partner*. Trends in Neurosciences. `copyref`
+- **1998** — Bi G, Poo M. *Synaptic modifications in cultured hippocampal neurons: dependence on spike timing, synaptic strength, and postsynaptic cell type*. Journal of Neuroscience. `copyref`
+- **1997** — Markram H, Lübke J, Frotscher M, Sakmann B. *Regulation of synaptic efficacy by coincidence of postsynaptic APs and EPSPs*. Science. `copyref`
+- **1994** — Destexhe A, Mainen ZF, Sejnowski TJ. *Synaptic interactions between thalamic inputs to simple cells in cat visual cortex — NMDA & LTP*. Journal of Computational Neuroscience. `copyref`
+- **1993** — Bliss TVP, Collingridge GL. *A synaptic model of memory: long-term potentiation in the hippocampus*. Nature. `copyref`
+- **1982** — Bienenstock EL, Cooper LN, Munro PW. *Theory for the development of neuron selectivity: orientation specificity and binocular interaction in visual cortex*. `copyref`
+- **1973** — Bliss TVP, Lømo T. *Long-lasting potentiation of synaptic transmission in the dentate area of the anaesthetized rabbit following stimulation of the perforant path*. Journal of Physiology. `copyref`
+- **1952** — Hodgkin AL, Huxley AF. *A quantitative description of membrane current and its application to conduction and excitation in nerve*. Journal of Physiology. `copyref`
+- **1949** — Hebb DO. *The Organization of Behavior*. Book. `copyref`
+
+## 2) Neuron models and computational neuroscience
+
+- **2007** — Izhikevich EM. *Dynamical systems in neuroscience: the geometry of excitability and bursting*. MIT Press. `copyref`
+- **2005** — Brette R, Gerstner W. *Adaptive exponential integrate-and-fire model as an effective description of neuronal activity*. Journal of Neurophysiology. `copyref`
+- **2005** — London M, Häusser M. *Dendritic computation*. Annual Review of Neuroscience. `copyref`
+- **2004** — Izhikevich EM. *Which model to use for cortical spiking neurons?* IEEE Transactions on Neural Networks. `copyref`
+- **2003** — Izhikevich EM. *Simple model of spiking neurons*. IEEE Transactions on Neural Networks. `copyref`
+- **2003** — Poirazi P, Brannon T, Mel BW. *Pyramidal neuron as two-layer neural network*. Neuron. `copyref`
+- **2002** — Froemke RC, Dan Y. *Spike-timing-dependent synaptic modification induced by natural spike trains*. Nature. `copyref`
+- **2001** — Sjöström PJ, Turrigiano GG, Nelson SB. *Rate, timing, and cooperativity jointly determine cortical synaptic plasticity*. Neuron. `copyref`
+- **2000** — Mainen ZF, Sejnowski TJ. *Reliability of spike timing in neocortical neurons*. Science. `copyref`
+- **1996** — Wilson HR, Cowan JD. *Excitatory and inhibitory interactions in localized populations of model neurons*. Biophysical Journal. `copyref`
+- **1995** — Goldman-Rakic PS. *Cellular basis of working memory*. Neuron. `copyref`
+- **1984** — Hindmarsh JL, Rose RM. *A model of neuronal bursting using three coupled first order differential equations*. Proceedings of the Royal Society B. `copyref`
+- **1981** — Morris C, Lecar H. *Voltage oscillations in the barnacle giant muscle fiber*. Biophysical Journal. `copyref`
+- **1962** — Nagumo J, Arimoto S, Yoshizawa S. *An active pulse transmission line simulating nerve axon*. Proceedings of the IRE. `copyref`
+- **1961** — FitzHugh R. *Impulses and physiological states in theoretical models of nerve membrane*. Biophysical Journal. `copyref`
+- **1907** — Lapicque L. *First integrate-and-fire model of neuron*. `copyref`
+
+## 3) Synapses, plasticity, and learning rules
+
+- **2010** — Abraham WC. *Metaplasticity: the plasticity of synaptic plasticity*. Nature Reviews Neuroscience. `copyref`
+- **2008** — Caporale N, Dan Y. *Spike-timing-dependent plasticity: a Hebbian learning rule*. Annual Review of Neuroscience. `copyref`
+- **2008** — Morrison A, Diesmann M, Gerstner W. *Phenomenological models of synaptic plasticity based on spike timing*. Biological Cybernetics. `copyref`
+- **2006** — Dan Y, Poo M. *Spike-timing-dependent plasticity: from synapse to perception*. Physiological Reviews. `copyref`
+- **2005** — Dan Y, Poo M. *Spike timing-dependent plasticity of neural circuits*. Neuron. `copyref`
+- **2002** — Song S, Miller KD, Abbott LF. *Competitive Hebbian learning through spike-timing-dependent synaptic plasticity*. Nature Neuroscience. `copyref`
+- **2002** — Froemke RC, Dan Y. *Spike-timing-dependent synaptic modification induced by natural spike trains*. Nature. `copyref`
+- **2001** — Sjöström PJ, Turrigiano GG, Nelson SB. *Rate, timing, and cooperativity jointly determine cortical synaptic plasticity*. Neuron. `copyref`
+- **2000** — Martin SJ, Grimwood PD, Morris RGM. *Synaptic plasticity and memory: an evaluation of the hypothesis*. Annual Review of Neuroscience. `copyref`
+- **2000** — LeDoux JE. *Emotion circuits in the brain*. Annual Review of Neuroscience. `copyref`
+- **1998** — Bi G, Poo M. *Synaptic modifications in cultured hippocampal neurons: dependence on spike timing, synaptic strength, and postsynaptic cell type*. Journal of Neuroscience. `copyref`
+- **1997** — Markram H, Lübke J, Frotscher M, Sakmann B. *Regulation of synaptic efficacy by coincidence of postsynaptic APs and EPSPs*. Science. `copyref`
+- **1995** — Bliss TVP, Collingridge GL. *A synaptic model of memory: long-term potentiation in the hippocampus*. Nature. `copyref`
+- **1994** — Destexhe A, Mainen ZF, Sejnowski TJ. *Synaptic interactions between thalamic inputs to simple cells in cat visual cortex — NMDA & LTP*. Journal of Computational Neuroscience. `copyref`
+- **1982** — Bienenstock EL, Cooper LN, Munro PW. *Theory for the development of neuron selectivity: orientation specificity and binocular interaction in visual cortex*. `copyref`
+
+## 4) Neuronal cultures, MEA, and closed-loop experiments
+
+- **2010** — Van Pelt J, Wolters PS, Corner MA, Rutten WLC, Ramakers GJA. *Burst and inter-burst duration distributions of spontaneous activity in developing neural networks*. Neuroscience. `copyref`
+- **2006** — Eytan D, Marom S. *Dynamics and effective topology underlying synchronization in networks of cortical neurons*. Journal of Neuroscience. `copyref`
+- **2005** — Wagenaar DA, Pine J, Potter SM. *An extremely rich repertoire of bursting patterns during the development of cortical cultures*. BMC Neuroscience. `copyref`
+- **2005** — Shahaf G, Marom S. *Learning in networks of cortical neurons*. Journal of Neuroscience. `copyref`
+- **2003** — Beggs JM, Plenz D. *Neuronal avalanches in neocortical circuits*. Journal of Neuroscience. `copyref`
+- **2002** — Marom S, Shahaf G. *Development, learning and memory in large random networks of cortical neurons: lessons beyond anatomy*. Quarterly Reviews of Biophysics. `copyref`
+- **2001** — Potter SM, DeMarse TB. *A new approach to neural cell culture for long-term studies*. Journal of Neuroscience Methods. `copyref`
+- **2001** — Gross GW, Rieske E, Kreutzberg GW, Meyer A. *The use of neuronal networks on multielectrode arrays as biosensors*. Neuroscience Letters. `copyref`
+- **1980** — Pine J. *Recording action potentials from cultured neurons with extracellular microcircuit electrodes*. Journal of Neuroscience Methods. `copyref`
+- **1977** — Gross GW, Rieske E, Kreutzberg GW, Meyer A. *The use of neuronal networks on multielectrode arrays as biosensors*. Neuroscience Letters. `copyref`
+
+## 5) Memristors, foundational theory, and circuit models
+
+- **2020** — Ielmini D, Wong HSP. *Memristive devices for computing*. Nature Electronics. `copyref`
+- **2011** — Pershin YV, Di Ventra M. *Memory effects in complex materials and nanoscale systems*. Advances in Physics. `copyref`
+- **2011** — Prodromakis T, Peh BP, Papavassiliou C, Toumazou C. *A versatile memristor model with nonlinear dopant kinetics*. IEEE Transactions on Electron Devices. `copyref`
+- **2011** — Joglekar YN, Wolf SJ. *The elusive memristor: properties of basic electrical circuits*. European Journal of Physics. `copyref`
+- **2010** — Chua LO. *Memristor — the missing circuit element*. IEEE Transactions on Circuit Theory. `copyref`
+- **2009** — Biolek D, Biolek Z, Biolková V. *SPICE model of memristor with nonlinear dopant drift*. Radioengineering. `copyref`
+- **2008** — Strukov DB, Snider GS, Stewart DR, Williams RS. *The missing memristor found*. Nature. `copyref`
+- **2008** — Williams RS. *How we found the missing memristor*. IEEE Spectrum. `copyref`
+- **2008** — Joglekar YN, Wolf SJ. *The elusive memristor: properties of basic electrical circuits*. European Journal of Physics. `copyref`
+- **1976** — Chua LO, Kang SM. *Memristive devices and systems*. Proceedings of the IEEE. `copyref`
+- **1971** — Chua LO. *Memristor — the missing circuit element*. IEEE Transactions on Circuit Theory. `copyref`
+
+## 6) RRAM, resistive switching, PCM, and related devices
+
+- **2022** — Lanza M et al. *2022 roadmap on low power e-beam based lithography*. Journal of Physics D. `copyref`
+- **2020** — Zidan MA, Strachan JP, Lu WD. *A review of memristive neuromorphic devices and circuits*. Nature Electronics. `copyref`
+- **2020** — Li C et al. *Efficient and self-adaptive in-situ learning in multilayer memristor neural networks*. Nature Communications. `copyref`
+- **2019** — Boyn S et al. *Ferroelectric tunnel junctions for neuromorphic computing*. Nature Communications. `copyref`
+- **2018** — Ielmini D, Wong HSP. *In-memory computing with resistive switching devices*. Nature Electronics. `copyref`
+- **2017** — Yu S. *Emerging non-volatile memories for artificial neural networks*. npj Computational Materials. `copyref`
+- **2017** — Wang Z et al. *Short-term memory to long-term memory transition in a nanoscale memristor*. ACS Nano. `copyref`
+- **2015** — Yang JJ, Strukov DB, Stewart DR. *Resistive switching materials for information processing*. Nature Nanotechnology. `copyref`
+- **2015** — Prezioso M et al. *Training and operation of an integrated neuromorphic network based on metal-oxide memristors*. Nature. `copyref`
+- **2015** — Yao P et al. *Fully hardware-implemented memristor convolutional neural network*. Nature. `copyref`
+- **2013** — Yang Y et al. *Observation of conducting filament growth in nanoscale resistive memories*. Nature Communications. `copyref`
+- **2013** — Kuzum D, Yu S, Wong HSP. *Synaptic electronics: materials, devices and applications*. Nanotechnology. `copyref`
+- **2013** — Indiveri G et al. *Integration of nanoscale memristor synapses in neuromorphic computing architectures*. Nanotechnology. `copyref`
+- **2012** — Wong HSP et al. *Metal–oxide RRAM*. Proceedings of the IEEE. `copyref`
+- **2011** — Valov I et al. *Electrochemical metallization memories — fundamentals, applications, prospects*. Nanotechnology. `copyref`
+- **2010** — Kwon DH et al. *Atomic structure of conducting nanofilaments in TiO2 resistive switching memory*. Nature Nanotechnology. `copyref`
+- **2010** — Snider GS. *Spike-timing-dependent learning in memristive nanodevices*. IEEE/ACM NANOARCH. `copyref`
+- **2009** — Waser R, Dittmann R, Staikov G, Szot K. *Redox-based resistive switching memories — nanoionic mechanisms, prospects, and challenges*. Advanced Materials. `copyref`
+- **2008** — Yang JJ, Pickett MD, Li X, Ohlberg DAA, Stewart DR, Williams RS. *Memristive switching mechanism for metal/oxide/metal nanodevices*. Nature Nanotechnology. `copyref`
+- **2008** — Sawa A. *Resistive switching in transition metal oxides*. Materials Today. `copyref`
+- **2008** — Burr GW et al. *Comparison of emerging memories (RRAM, PCM, MRAM) for memristive synapses*. `copyref`
+- **2008** — Williams RS. *How we found the missing memristor*. IEEE Spectrum. `copyref`
+- **2007** — Waser R, Aono M. *Nanoionics-based resistive switching memories*. Nature Materials. `copyref`
+- **2005** — Yang? not explicit in the dump; omitted.
+- **2013** — Zamarreño-Ramos C et al. *On spike-timing-dependent-plasticity, memristive devices, and building a self-learning visual cortex*. Frontiers in Neuroscience. `copyref`
+- **2013** — Serrano-Gotarredona T et al. *STDP and STDP variations with memristors for spiking neuromorphic learning systems*. Frontiers in Neuroscience. `copyref`
+- **2013** — Lin? not explicit in the dump; omitted.
+
+## 7) Neuromorphic hardware and circuit systems
+
+- **2022** — Orchard G et al. *Taking brain-inspired computing to the next level with Intel's Loihi 2 — extended review*. Nature Electronics. `copyref`
+- **2021** — Davies M et al. *Loihi 2: a neuromorphic processor with on-chip learning and programmable neuron models*. Intel technical report / Frontiers. `copyref`
+- **2018** — Davies M et al. *Loihi: a neuromorphic manycore processor with on-chip learning*. IEEE Micro. `copyref`
+- **2014** — Merolla PA et al. *A million spiking-neuron integrated circuit with a scalable communication network and interface*. Science. `copyref`
+- **2014** — Benjamin BV et al. *Neurogrid: a mixed-analog-digital multichip system for large-scale neural simulations*. Proceedings of the IEEE. `copyref`
+- **2014** — Furber S et al. *The SpiNNaker project*. Proceedings of the IEEE. `copyref`
+- **2014** — Chicca E, Stefanini F, Bartolozzi C, Indiveri G. *Neuromorphic electronic circuits for building autonomous cognitive systems*. Proceedings of the IEEE. `copyref`
+- **2011** — Indiveri G et al. *Neuromorphic silicon neuron circuits*. Frontiers in Neuroscience. `copyref`
+- **1991** — Mahowald M, Mead C. *A silicon neuron*. Nature. `copyref`
+- **1990** — Mead C. *Neuromorphic electronic systems*. Proceedings of the IEEE. `copyref`
+- **1989** — Mead C. *Analog VLSI and neural systems*. Book. `copyref`
+
+## 8) Network dynamics, oscillations, and collective behavior
+
+- **2012** — Buzsáki G, Wang XJ. *Mechanisms of gamma oscillations*. Annual Review of Neuroscience. `copyref`
+- **2005** — Fries P. *A mechanism for cognitive dynamics: neuronal communication through neuronal coherence*. Trends in Neurosciences. `copyref`
+- **2004** — Buzsáki G, Draguhn A. *Neuronal oscillations in cortical networks*. Science. `copyref`
+- **2002** — Buzsáki G. *Theta oscillations in the hippocampus*. Neuron. `copyref`
+- **1989** — Gray CM, Singer W. *Stimulus-specific neuronal oscillations in orientation columns of cat visual cortex*. Proceedings of the National Academy of Sciences. `copyref`
+- **1982** — Hopfield JJ. *Neural networks and physical systems with emergent collective computational abilities*. Proceedings of the National Academy of Sciences. `copyref`
+
+## 9) Connectomics and structural brain organization
+
+- **2021** — Scheffer LK et al. *A complete electron microscopy volume of the brain of adult Drosophila melanogaster*. eLife. `copyref`
+- **2017** — Zheng Z et al. *A connectome and analysis of the adult Drosophila central brain*. Cell. `copyref`
+- **2012** — Power JD et al. *The organization of the human cerebral cortex estimated by intrinsic functional connectivity*. Journal of Neurophysiology. `copyref`
+- **2009** — Bullmore E, Sporns O. *Complex brain networks: graph theoretical analysis of structural and functional systems*. Nature Reviews Neuroscience. `copyref`
+- **2005** — Sporns O, Tononi G, Kötter R. *The human connectome: a structural description of the human brain*. PLoS Computational Biology. `copyref`
+- **1986** — White JG, Southgate E, Thomson JN, Brenner S. *The structure of the nervous system of the nematode Caenorhabditis elegans*. Philosophical Transactions of the Royal Society B. `copyref`
+
+## 10) Biological neuron and cortex physiology
+
+- **2015** — Markram H et al. *Reconstruction and simulation of neocortical microcircuitry*. Cell. `copyref`
+- **2005** — Häfting T, Fyhn M, Molden S, Moser MB, Moser EI. *Microstructure of a spatial map in the entorhinal cortex*. Nature. `copyref`
+- **2005** — Markram H et al. *Interneurons of the neocortex: diversity, specificity and function*. Neuron. `copyref`
+- **2004** — Grezes J, Decety J. *Cortical activity during motor execution, motor imagery, action observation and imagined action*. Human Brain Mapping. `copyref`
+- **2000** — Rizzolatti G, Fadiga L, Gallese V, Fogassi L. *Action recognition in the premotor cortex*. Brain. `copyref`
+- **1996** — Joris PX, Smith PH, Yin TC. *Coincidence detection in the auditory system: 50 years after Jeffress*. Neuron. `copyref`
+- **1971** — O'Keefe J, Dostrovsky J. *The hippocampus as a spatial map — preliminary evidence from unit activity in the freely-moving rat*. Brain Research. `copyref`
+- **1962** — Hubel DH, Wiesel TN. *Receptive fields, binocular interaction and functional architecture in the cat's visual cortex*. Journal of Physiology. `copyref`
+
+## 11) Other paper-like resources explicitly named in the dump
+
+- **2024** — Pan et al. *1T1R design to prevent sneak currents*. `copyref`
+- **2024** — Kim et al. *Self-organized nanowire memristors*. `copyref`
+- **2024** — Chen et al. *3D crossbar RRAM*. `copyref`
+- **2025** — Moore et al. *Ferroelectric synapses*. `copyref`
+- **2024** — Wu et al. *Hybrid CMOS-memristor SNN for MNIST*. `copyref`
+- **2016** — Qiao et al. *MOSIX chip*. `copyref`
+- **2017** — van de Burgt et al. *Organic neuromorphic chip*. `copyref`
+- **2018** — Ambrogio et al. *Large-scale memristive networks for inference*. `copyref`
+- **2020** — Amor et al. *Advanced memristive neural systems*. `copyref`
+- **2014** — Mahowald & Mead AER reference. `copyref`
+
+## 12) Non-paper resources mentioned in the dump
+
+- Blue Brain Project
+- ABC Atlas
+- Allen Brain Map Connectivity
+- Whole-brain mapping / mesoscopic architecture summaries
+- Izhikevich model summaries and ModelDB pages
+- Memristor review pages and PMC review notes
+- Ferroelectric tunnel junction explainer pages
+- Bio-hybrid / closed-loop system overviews
