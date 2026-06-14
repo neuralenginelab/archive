@@ -1,0 +1,96 @@
+/* =========================
+   FONT FACE DEFINITIONS
+   ========================= */
+
+@font-face {
+  font-family: "CustomFont";
+  src: url("./assets/SF-Pro-Display-Black.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "CustomFont";
+  src: url("./assets/SF-Pro-Display-BlackItalic.otf") format("opentype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "CustomFont";
+  src: url("./assets/SF-Pro-Display-Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "CustomFont";
+  src: url("./assets/SF-Pro-Display-MediumItalic.otf") format("opentype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "CustomFont";
+  src: url("./assets/SF-Pro-Display-Semibold.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "CustomFont";
+  src: url("./assets/SF-Pro-Display-SemiboldItalic.otf") format("opentype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "CustomFont";
+  src: url("./assets/SF-Pro-Display-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "CustomFont";
+  src: url("./assets/SF-Pro-Display-BoldItalic.otf") format("opentype");
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* =========================
+   GLOBAL STYLES
+   ========================= */
+
+body {
+  font-family:
+    "CustomFont",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Headings */
+h1,
+h2,
+h3 {
+  font-weight: 600;
+}
+
+/* =========================
+   REMOVE MYST BRANDING
+   ========================= */
+
+/* Remove top text */
+span.text-md.sm\:text-xl.tracking-tight.sm\:mr-5 {
+  display: none !important;
+}
+
+/* Remove footer badge */
+a.myst-made-with-myst {
+  display: none !important;
+}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="http://localhost:3000/sitemap_style.xsl" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>http://localhost:3000</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/papers/foundations</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/papers/neuron-models</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/papers/plasticity</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/papers/cultures-mea</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/papers/memristors</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/papers/rram-devices</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/papers/neuromorphic-hw</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/papers/network-dynamics</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/papers/connectomics</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/papers/cortex-physiology</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/papers/extra</loc>
+  </url>
+</urlset>

@@ -1,0 +1,324 @@
+/* ==========================================
+   FONTS
+========================================== */
+
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap");
+
+/* ==========================================
+   ROOT
+========================================== */
+
+:root {
+  --black: #050505;
+
+  --white: #f7f8fc;
+
+  --gray-100: #f3f4f6;
+
+  --gray-200: #e5e7eb;
+
+  --gray-400: #9ca3af;
+
+  --gray-600: #4b5563;
+
+  --gray-700: #374151;
+
+  --green: #fdfdfd;
+
+  --max-width: 900px;
+}
+
+/* ==========================================
+   GLOBAL
+========================================== */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--white);
+
+  color: var(--black);
+
+  font-family: var(--nb-font-body);
+
+  font-size: 17px;
+
+  line-height: 1.75;
+
+  letter-spacing: -0.012em;
+
+  text-rendering: optimizeLegibility;
+
+  font-feature-settings:
+    "liga" 1,
+    "kern" 1;
+}
+
+/* ==========================================
+   HIDE MYST BRANDING
+========================================== */
+
+span.text-md.sm\:text-xl.tracking-tight.sm\:mr-5 {
+  display: none !important;
+}
+
+a.myst-made-with-myst {
+  display: none !important;
+}
+
+/* ==========================================
+   CONTENT WIDTH
+========================================== */
+
+.prose,
+article,
+main {
+  max-width: var(--max-width);
+
+  margin-inline: auto;
+}
+
+/* ==========================================
+   HEADINGS
+========================================== */
+h1 {
+  font-family: var(--nb-font-display);
+
+  font-weight: 500;
+
+  font-size: clamp(3.5rem, 6vw, 5rem);
+
+  line-height: 0.95;
+
+  letter-spacing: -0.05em;
+
+  margin-bottom: 2rem;
+
+  max-width: 12ch;
+}
+
+h2 {
+  font-family: var(--nb-font-body);
+
+  font-weight: 700;
+
+  font-size: 2rem;
+
+  margin-top: 5rem;
+
+  margin-bottom: 1.25rem;
+
+  letter-spacing: -0.03em;
+
+  color: var(--black);
+}
+
+h3 {
+  font-family: var(--nb-font-body);
+
+  font-weight: 600;
+
+  font-size: 1.25rem;
+
+  margin-top: 2.5rem;
+
+  margin-bottom: 0.75rem;
+
+  color: var(--black);
+}
+
+/* ==========================================
+   TEXT
+========================================== */
+
+p {
+  color: var(--gray-700);
+
+  margin-bottom: 1.6rem;
+
+  max-width: 72ch;
+}
+
+strong {
+  color: var(--black);
+}
+
+em {
+  font-style: italic;
+}
+
+/* ==========================================
+   LINKS
+========================================== */
+
+a {
+  color: var(--red);
+
+  text-decoration: none;
+
+  transition: 0.25s;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+/* ==========================================
+   LISTS
+========================================== */
+
+ul li {
+  margin-bottom: 0.7rem;
+}
+
+/* ==========================================
+   CODE
+========================================== */
+
+code {
+  font-family: var(--nb-font-mono);
+
+  font-size: 0.9rem;
+
+  background: var(--gray-100);
+
+  padding: 0.2rem 0.4rem;
+
+  border-radius: 6px;
+}
+
+pre {
+  border: 1px solid var(--gray-200);
+
+  border-radius: 14px;
+
+  padding: 1.2rem;
+
+  overflow-x: auto;
+
+  background: white;
+}
+
+/* ==========================================
+   BLOCKQUOTE
+========================================== */
+
+blockquote {
+  border-left: 3px solid var(--red);
+
+  padding-left: 1.25rem;
+
+  color: var(--gray-600);
+
+  margin: 2rem 0;
+}
+
+/* ==========================================
+   TABLES
+========================================== */
+
+table {
+  width: 100%;
+
+  border-collapse: collapse;
+
+  margin: 2rem 0;
+}
+
+th {
+  text-align: left;
+
+  border-bottom: 2px solid var(--black);
+
+  padding: 0.8rem;
+}
+
+td {
+  border-bottom: 1px solid var(--gray-200);
+
+  padding: 0.8rem;
+}
+
+/* ==========================================
+   CARDS
+========================================== */
+
+.sd-card {
+  border: 1px solid var(--gray-200) !important;
+
+  border-radius: 18px !important;
+
+  background: white !important;
+
+  transition: 0.25s ease;
+}
+
+.sd-card:hover {
+  transform: translateY(-4px);
+
+  border-color: var(--red) !important;
+}
+
+.sd-card-title {
+  font-family: var(--nb-font-display);
+
+  font-size: 1.5rem;
+}
+
+/* ==========================================
+   NAVIGATION
+========================================== */
+
+nav {
+  border-bottom: 1px solid var(--gray-200);
+}
+
+/* ==========================================
+   SIDEBAR
+========================================== */
+
+aside {
+  border-right: 1px solid var(--gray-200);
+}
+
+/* ==========================================
+   HR
+========================================== */
+
+hr {
+  border: none;
+
+  height: 1px;
+
+  background: var(--gray-200);
+
+  margin: 4rem 0;
+}
+
+/* ==========================================
+   MOBILE
+========================================== */
+
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+
+    padding-inline: 1rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+
+    line-height: 1;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  .sd-card {
+    margin-bottom: 1rem;
+  }
+}

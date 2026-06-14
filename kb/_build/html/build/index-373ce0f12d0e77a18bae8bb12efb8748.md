@@ -1,0 +1,108 @@
+---
+title: Neuro-Electronics Knowledge Base
+description: A structured research archive spanning biological neural systems, computational models, synaptic plasticity, memristive devices, and neuromorphic hardware — from 1907 to the present.
+---
+
+# Neural Engine
+
+_Independent Research Archive_
+
+---
+
+A curated archive tracing the intellectual path from biological neural systems to neuromorphic computation — spanning foundational neuroscience, synaptic plasticity, computational neuron models, network dynamics, memristive physics, and brain-inspired hardware.
+
+**110+ works** across **10 research domains**, covering **1907–2025**.
+
+---
+
+## Intellectual Arc
+
+::::{grid} 5
+
+:::{card}
+Brain Biology
+:::
+
+:::{card}
+Neuron Models
+:::
+
+:::{card}
+Plasticity
+:::
+
+:::{card}
+Network Dynamics
+:::
+
+:::{card}
+Neuromorphic Hardware
+:::
+
+::::
+
+_Each domain builds on the last — from biological ground truth to physical implementation._
+
+---
+
+## Research Domains
+
+::::{grid} 2
+:gutter: 3
+
+:::{card} 🧬 Foundations
+:link: papers/foundations/index.md
+Brain biology, synaptic structure, Hebbian learning, LTP/LTD, astrocytes, and the tripartite synapse — the biological substrate from which every other domain derives.
+:::
+
+:::{card} ⚡ Neuron Models
+:link: papers/neuron-models/index.md
+Hodgkin–Huxley, integrate-and-fire, AdEx, Izhikevich, and FitzHugh–Nagumo. Mathematical abstractions of neural dynamics, from biophysical fidelity to computational efficiency.
+:::
+
+:::{card} 🔁 Plasticity
+:link: papers/plasticity/index.md
+STDP, BCM theory, metaplasticity, and rate- and timing-based learning rules. The mechanisms by which synapses encode, consolidate, and forget.
+:::
+
+:::{card} 🧫 Cultures & MEA
+:link: papers/cultures-mea/index.md
+Neuronal cultures, multi-electrode arrays, burst dynamics, and closed-loop stimulation. Learning observed directly in living networks.
+:::
+
+:::{card} 🌀 Memristors
+:link: papers/memristors/index.md
+Chua's circuit theory, memristive systems, and SPICE models. The fourth fundamental circuit element as a physical analogue of the synapse.
+:::
+
+:::{card} 🗃️ RRAM Devices
+:link: papers/rram-devices/index.md
+Resistive RAM, oxide switching, filament dynamics, and crossbar arrays. Device physics and materials science behind memristive in-memory computing.
+:::
+
+:::{card} 🖥️ Neuromorphic Hardware
+:link: papers/neuromorphic-hw/index.md
+Loihi, TrueNorth, SpiNNaker, Neurogrid, and analog VLSI. Silicon architectures designed to run spiking neural networks at scale and ultra-low power.
+:::
+
+:::{card} 🌐 Network Dynamics
+:link: papers/network-dynamics/index.md
+Neural oscillations, gamma and theta rhythms, synchrony, Hopfield networks, and cortical dynamics. Emergent behaviour from coupled neural populations.
+:::
+
+:::{card} 🗺️ Connectomics
+:link: papers/connectomics/index.md
+Connectome mapping, graph-theoretic analysis, _C. elegans_, Drosophila, and the Human Connectome Project. The topological structure of neural circuits.
+:::
+
+:::{card} 🧠 Cortex Physiology
+:link: papers/cortex-physiology/index.md
+Place cells, grid cells, mirror neurons, visual and auditory cortex. How specialised cortical circuits instantiate specific computational functions.
+:::
+
+:::{card} 🔬 Emerging Frontiers
+:link: papers/extra/index.md
+Ferroelectric synapses, organic neuromorphic devices, hybrid SNN architectures, and AER systems. The active boundary of the field.
+:::
+
+::::

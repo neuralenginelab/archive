@@ -1,0 +1,449 @@
+/* ============================================================
+   NEURO-ELECTRONICS KNOWLEDGE BASE — GLOBAL STYLES
+   Fonts: Cormorant Garamond (display) + Inter (body) + JetBrains Mono (label)
+   ============================================================ */
+
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap");
+
+/* ── Root tokens ── */
+:root {
+  --nb-bg: #0b0e1a;
+  --nb-surface: #111522;
+  --nb-card: #161c2e;
+  --nb-border: #252d47;
+  --nb-text: #f0ede6;
+  --nb-muted: #8a93b0;
+  --nb-accent: #6b5cf6;
+  --nb-accent-glow: rgba(107, 92, 246, 0.18);
+  --nb-teal: #1eaaaa;
+  --nb-teal-glow: rgba(30, 170, 170, 0.14);
+  --nb-gold: #c9a84c;
+  --nb-radius: 10px;
+  --nb-radius-lg: 16px;
+  --nb-font-display: "Cormorant Garamond", Georgia, serif;
+  --nb-font-body: "Inter", system-ui, sans-serif;
+  --nb-font-mono: "JetBrains Mono", "Fira Code", monospace;
+}
+
+/* ── Base overrides ── */
+body {
+  background-color: var(--nb-bg) !important;
+  color: var(--nb-text) !important;
+  font-family: var(--nb-font-body) !important;
+  font-size: 16px;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ── Hide MyST branding ── */
+span.text-md.sm\:text-xl.tracking-tight.sm\:mr-5,
+a.myst-made-with-myst {
+  display: none !important;
+}
+
+/* ── Headings ── */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--nb-font-display) !important;
+  font-weight: 400 !important;
+  letter-spacing: -0.01em;
+  color: var(--nb-text) !important;
+  line-height: 1.25;
+}
+
+h1 {
+  font-size: clamp(2rem, 5vw, 3.5rem) !important;
+  font-weight: 300 !important;
+}
+h2 {
+  font-size: clamp(1.5rem, 3vw, 2.4rem) !important;
+}
+h3 {
+  font-size: clamp(1.2rem, 2vw, 1.75rem) !important;
+}
+
+/* ── Sidebar ── */
+nav,
+.sidebar,
+[class*="sidebar"],
+aside {
+  background-color: var(--nb-surface) !important;
+  border-right: 1px solid var(--nb-border) !important;
+  font-family: var(--nb-font-body) !important;
+  font-size: 0.85rem !important;
+}
+
+/* Sidebar links */
+nav a,
+.sidebar a,
+[class*="sidebar"] a {
+  color: var(--nb-muted) !important;
+  text-decoration: none !important;
+  transition: color 0.2s ease;
+}
+nav a:hover,
+.sidebar a:hover,
+[class*="sidebar"] a:hover {
+  color: var(--nb-accent) !important;
+}
+nav a[aria-current="page"],
+.sidebar a[aria-current="page"],
+[class*="sidebar"] a[aria-current="page"] {
+  color: var(--nb-accent) !important;
+  font-weight: 500 !important;
+}
+
+/* ── Top navbar ── */
+header,
+[class*="navbar"],
+[class*="header"] {
+  background-color: rgba(11, 14, 26, 0.92) !important;
+  backdrop-filter: blur(12px) !important;
+  -webkit-backdrop-filter: blur(12px) !important;
+  border-bottom: 1px solid var(--nb-border) !important;
+  font-family: var(--nb-font-body) !important;
+}
+
+header a,
+[class*="navbar"] a {
+  color: var(--nb-muted) !important;
+}
+header a:hover,
+[class*="navbar"] a:hover {
+  color: var(--nb-text) !important;
+}
+
+/* ── Main content area ── */
+main,
+article,
+[class*="article"],
+[class*="content"] {
+  background-color: var(--nb-bg) !important;
+  color: var(--nb-text) !important;
+  font-family: var(--nb-font-body) !important;
+  max-width: 900px;
+}
+
+/* ── Links ── */
+main a,
+article a {
+  color: var(--nb-accent) !important;
+  text-decoration: none !important;
+  border-bottom: 1px solid transparent;
+  transition:
+    border-color 0.2s ease,
+    color 0.2s ease;
+}
+main a:hover,
+article a:hover {
+  border-bottom-color: var(--nb-accent) !important;
+}
+
+/* ── Code blocks ── */
+pre,
+code {
+  font-family: var(--nb-font-mono) !important;
+  background-color: var(--nb-surface) !important;
+  border: 1px solid var(--nb-border) !important;
+  border-radius: var(--nb-radius) !important;
+  font-size: 0.875rem !important;
+  color: var(--nb-teal) !important;
+}
+pre {
+  padding: 1.25rem 1.5rem !important;
+  overflow-x: auto;
+}
+code {
+  padding: 0.15em 0.4em !important;
+}
+
+/* ── MyST grid & card override ── */
+.sd-card,
+[class*="sd-card"],
+div[class*="card"] {
+  background: var(--nb-card) !important;
+  border: 1px solid var(--nb-border) !important;
+  border-radius: var(--nb-radius-lg) !important;
+  color: var(--nb-text) !important;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.35) !important;
+  transition:
+    transform 0.22s ease,
+    box-shadow 0.22s ease,
+    border-color 0.22s ease !important;
+  position: relative;
+  overflow: hidden;
+}
+
+.sd-card::before,
+[class*="sd-card"]::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: var(--nb-radius-lg);
+  opacity: 0;
+  transition: opacity 0.22s ease;
+  background: linear-gradient(135deg, var(--nb-accent-glow), transparent 60%);
+  pointer-events: none;
+}
+
+.sd-card:hover,
+[class*="sd-card"]:hover {
+  transform: translateY(-3px) !important;
+  box-shadow:
+    0 8px 32px rgba(0, 0, 0, 0.5),
+    0 0 0 1px var(--nb-accent) !important;
+  border-color: var(--nb-accent) !important;
+}
+
+.sd-card:hover::before,
+[class*="sd-card"]:hover::before {
+  opacity: 1;
+}
+
+/* Card title */
+.sd-card-title,
+[class*="sd-card-title"] {
+  font-family: var(--nb-font-display) !important;
+  font-size: 1.2rem !important;
+  font-weight: 600 !important;
+  color: var(--nb-text) !important;
+  letter-spacing: 0.01em;
+}
+
+/* Card body text */
+.sd-card-body,
+[class*="sd-card-body"] {
+  color: var(--nb-muted) !important;
+  font-size: 0.9rem !important;
+  line-height: 1.65 !important;
+}
+
+/* Card link wrapper */
+.sd-card a,
+[class*="sd-card"] a {
+  text-decoration: none !important;
+  color: inherit !important;
+  border: none !important;
+}
+
+/* ── Grid ── */
+.sd-row,
+[class*="sd-row"] {
+  gap: 1.25rem !important;
+}
+
+/* ── Admonitions / callouts ── */
+div[class*="admonition"],
+div.note,
+div.warning,
+div.tip,
+div.important {
+  background: var(--nb-card) !important;
+  border-left: 3px solid var(--nb-accent) !important;
+  border-radius: 0 var(--nb-radius) var(--nb-radius) 0 !important;
+  padding: 1rem 1.25rem !important;
+  color: var(--nb-text) !important;
+}
+
+/* ── Horizontal rule ── */
+hr {
+  border: none !important;
+  border-top: 1px solid var(--nb-border) !important;
+  margin: 2rem 0 !important;
+}
+
+/* ── Paragraph & list ── */
+p {
+  color: var(--nb-text) !important;
+  font-size: 1rem;
+  line-height: 1.75;
+}
+
+ul li,
+ol li {
+  color: var(--nb-text) !important;
+  line-height: 1.7;
+  margin-bottom: 0.4em;
+}
+
+ul li::marker {
+  color: var(--nb-accent) !important;
+}
+
+/* ── Section label chip ── */
+.domain-label {
+  font-family: var(--nb-font-mono) !important;
+  font-size: 0.7rem !important;
+  letter-spacing: 0.12em !important;
+  text-transform: uppercase !important;
+  color: var(--nb-accent) !important;
+  background: var(--nb-accent-glow) !important;
+  padding: 0.2em 0.7em !important;
+  border-radius: 999px !important;
+  display: inline-block !important;
+  margin-bottom: 0.6rem !important;
+}
+
+/* ── Pipeline diagram (code block inside card) ── */
+.pipeline-block pre,
+.pipeline-block code {
+  background: transparent !important;
+  border: none !important;
+  color: var(--nb-teal) !important;
+  font-size: 0.85rem !important;
+  line-height: 1.8 !important;
+  white-space: pre !important;
+}
+
+/* ── Right TOC ── */
+[class*="toc"],
+[class*="onthispage"] {
+  font-family: var(--nb-font-body) !important;
+  font-size: 0.8rem !important;
+  color: var(--nb-muted) !important;
+}
+[class*="toc"] a,
+[class*="onthispage"] a {
+  color: var(--nb-muted) !important;
+  text-decoration: none !important;
+}
+[class*="toc"] a:hover,
+[class*="onthispage"] a:hover {
+  color: var(--nb-accent) !important;
+}
+
+/* ── Search bar ── */
+input[type="search"],
+input[type="text"],
+[class*="search"] input {
+  background: var(--nb-surface) !important;
+  border: 1px solid var(--nb-border) !important;
+  border-radius: var(--nb-radius) !important;
+  color: var(--nb-text) !important;
+  font-family: var(--nb-font-body) !important;
+  padding: 0.5rem 0.9rem !important;
+}
+input[type="search"]:focus,
+input[type="text"]:focus {
+  outline: none !important;
+  border-color: var(--nb-accent) !important;
+  box-shadow: 0 0 0 3px var(--nb-accent-glow) !important;
+}
+
+/* ── Scrollbar ── */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--nb-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--nb-border);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--nb-accent);
+}
+
+/* ============================================================
+   MOBILE — ≤ 768px
+   ============================================================ */
+@media (max-width: 768px) {
+  :root {
+    --nb-radius: 8px;
+    --nb-radius-lg: 12px;
+  }
+
+  body {
+    font-size: 15px !important;
+  }
+
+  h1 {
+    font-size: 2rem !important;
+  }
+  h2 {
+    font-size: 1.5rem !important;
+  }
+  h3 {
+    font-size: 1.2rem !important;
+  }
+
+  main,
+  article,
+  [class*="content"] {
+    padding: 0 1rem !important;
+  }
+
+  /* Stack grid to 1 column */
+  .sd-row,
+  [class*="sd-row"] {
+    flex-direction: column !important;
+    gap: 1rem !important;
+  }
+
+  .sd-col,
+  [class*="sd-col"] {
+    width: 100% !important;
+    flex: none !important;
+  }
+
+  .sd-card,
+  [class*="sd-card"] {
+    margin-bottom: 0 !important;
+  }
+
+  /* Disable hover transform on touch */
+  .sd-card:hover,
+  [class*="sd-card"]:hover {
+    transform: none !important;
+  }
+
+  /* Pipeline code wrap */
+  pre,
+  code {
+    font-size: 0.78rem !important;
+    overflow-x: auto !important;
+    white-space: pre !important;
+  }
+
+  nav,
+  .sidebar,
+  [class*="sidebar"],
+  aside {
+    font-size: 0.9rem !important;
+  }
+}
+
+/* ============================================================
+   SMALL MOBILE — ≤ 480px
+   ============================================================ */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.7rem !important;
+  }
+  h2 {
+    font-size: 1.3rem !important;
+  }
+  pre {
+    padding: 1rem !important;
+  }
+
+  .sd-card-title,
+  [class*="sd-card-title"] {
+    font-size: 1.05rem !important;
+  }
+}
+
+/* ── Reduced motion ── */
+@media (prefers-reduced-motion: reduce) {
+  .sd-card,
+  [class*="sd-card"],
+  a {
+    transition: none !important;
+  }
+}

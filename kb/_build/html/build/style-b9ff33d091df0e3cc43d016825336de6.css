@@ -1,0 +1,18 @@
+body {
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 600;
+}
+
+span.text-md.sm\:text-xl.tracking-tight.sm\:mr-5 {
+  display: none !important;
+}
+
+a.myst-made-with-myst {
+  display: none !important;
+}
