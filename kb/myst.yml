@@ -10,6 +10,7 @@ project:
 site:
   template: book-theme
   options:
+    base_url: /archive
     folders: true
     style: ./style.css
     favicon: assets/favicon.png
