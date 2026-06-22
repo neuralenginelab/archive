@@ -5,52 +5,48 @@ description: Memristor theory, circuit models, SPICE simulation, memristive syst
 
 # Memristors
 
-## What is this domain?
+## Scope
 
-The memristor — short for memory resistor — is a two-terminal passive circuit element whose resistance depends on the history of current or charge that has passed through it. Postulated by Leon Chua in 1971 as the missing fourth fundamental circuit element alongside the resistor, capacitor, and inductor, the memristor was first physically identified in 2008 in a titanium dioxide thin film device at HP Labs. Its defining property — a pinched hysteresis loop in the current-voltage plane — is shared by a wide class of devices now collectively termed memristive systems.
+The memristor is a two-terminal passive circuit element whose resistance is determined by its charge or current history. Postulated by Leon Chua in 1971 as the fourth fundamental circuit element alongside the resistor, capacitor, and inductor, it was physically realised in 2008 in a titanium dioxide thin-film device at HP Labs. Its defining electrical signature: a pinched hysteresis loop in the current-voltage plane that collapses to a single-valued curve at high frequency. This property is shared by a broad class of devices: collectively termed memristive systems unified by a state-variable formulation coupling voltage, current, and an internal physical variable.
 
-## Why it matters
+## Relevance
 
-The memristor's ability to continuously tune its conductance in response to applied signals makes it a natural analogue of a biological synapse. Unlike digital memory, memristive synapses can store analogue weight values and update them locally through simple voltage pulses, enabling in-situ learning without the need for a separate processor. This underpins much of the excitement around memristors as the physical substrate for spike-timing-dependent plasticity and other on-chip learning rules.
+Continuous, analogue conductance tuning in response to voltage pulses makes the memristor a natural physical substrate for synaptic weight storage and update. Weight modification is local and requires no separate processor, enabling in-situ implementation of STDP and other spike-driven learning rules. At the array level, memristors placed at crossbar intersections implement dense passive weight matrices capable of analogue vector-matrix multiplication the core operation of neural inference.
 
-## Core concepts
+## Cross-references
 
-- **Chua's circuit element theory** — the four fundamental two-terminal circuit elements are defined by the six possible relationships between charge, flux, voltage, and current; the memristor completes this set
-- **Pinched hysteresis loop** — the defining electrical signature of a memristive device; the current-voltage curve collapses to a single-valued function at high frequencies, distinguishing memristors from nonlinear resistors
-- **State variable formulation** — memristive systems are described by a state equation governing the internal variable (e.g. doping front position, phase boundary) and a constitutive relation linking voltage, current, and state
-- **SPICE modelling** — behavioural SPICE models (e.g. Biolek, Prodromakis, Yakopcic) allow circuit simulation of memristive elements and are essential for system-level design
-- **Emulator circuits** — active circuit implementations of memristive behaviour using op-amps and multipliers, enabling laboratory testing without physical memristive materials
-- **Crossbar synaptic arrays** — memristors placed at the intersections of horizontal and vertical wire grids implement dense, passive weight matrices for vector-matrix multiplication
-
-## How it connects
-
-Memristor theory provides the conceptual framework for the device physics detailed in [RRAM Devices](../rram-devices/index.md), and directly motivates the synaptic implementations used in [Neuromorphic Hardware](../neuromorphic-hw/index.md). The plasticity rules it seeks to implement are covered in [Plasticity](../plasticity/index.md).
-
+Memristor theory provides the conceptual framework for the device physics in [RRAM Devices](../rram-devices/index.md) and directly motivates the synaptic implementations in [Neuromorphic Hardware](../neuromorphic-hw/index.md). The plasticity rules these devices seek to implement are covered in [Plasticity](../plasticity/index.md).
 
 ## Papers
 
 ### 2020
-- [Memristive devices for computing](2020-ielmini-wong-memristive-devices-for-computing.md)
+
+- [Memristive devices for computing](https://doi.org/10.1038/s41565-020-0647-z)
 
 ### 2011
-- [A versatile memristor model with nonlinear dopant kinetics](2011-prodromakis-versatile-memristor-model-nonlinear-dopant-kinetics.md)
-- [Memory effects in complex materials and nanoscale systems](2011-pershin-diventra-memory-effects-complex-materials.md)
-- [The elusive memristor: properties of basic electrical circuits](2011-joglekar-wolf-elusive-memristor-basic-circuits.md)
+
+- [A versatile memristor model with nonlinear dopant kinetics](https://doi.org/10.1109/TED.2011.2158004)
+- [Memory effects in complex materials and nanoscale systems](https://doi.org/10.1080/00018732.2010.544961)
+- [The elusive memristor: properties of basic electrical circuits](https://doi.org/10.1088/0143-0807/30/4/001)
 
 ### 2010
-- [Memristor — the missing circuit element](2010-chua-memristor-missing-circuit-element.md)
+
+- [Memristor — the missing circuit element](https://doi.org/10.1109/TCT.1971.1083337)
 
 ### 2009
-- [SPICE model of memristor with nonlinear dopant drift](2009-biolek-spice-model-memristor-nonlinear-drift.md)
+
+- [SPICE model of memristor with nonlinear dopant drift](https://www.researchgate.net/publication/26625012_SPICE_Model_of_Memristor_with_Nonlinear_Dopant_Drift)
 
 ### 2008
-- [How we found the missing memristor](2008-williams-how-we-found-the-missing-memristor.md)
-- [The elusive memristor: properties of basic electrical circuits](2008-joglekar-wolf-elusive-memristor-basic-circuits.md)
-- [The missing memristor found](2008-strukov-snider-stewart-williams-missing-memristor-found.md)
+
+- [How we found the missing memristor](https://doi.org/10.1109/MSPEC.2008.4687366)
+- [The elusive memristor: properties of basic electrical circuits](https://doi.org/10.1088/0143-0807/30/4/001)
+- [The missing memristor found](https://doi.org/10.1038/nature06932)
 
 ### 1976
-- [Memristive devices and systems](1976-chua-kang-memristive-devices-and-systems.md)
+
+- [Memristive devices and systems](https://doi.org/10.1109/PROC.1976.10092)
 
 ### 1971
-- [Memristor — the missing circuit element](1971-chua-memristor-missing-circuit-element-original.md)
 
+- [Memristor — the missing circuit element](https://doi.org/10.1109/TCT.1971.1083337)

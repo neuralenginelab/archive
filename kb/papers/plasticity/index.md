@@ -5,66 +5,60 @@ description: Synaptic plasticity rules — STDP, BCM theory, metaplasticity, rat
 
 # Plasticity
 
-## What is this domain?
+## Scope
 
-Synaptic plasticity encompasses the mechanisms by which the strength of synaptic connections changes in response to neural activity. These changes can occur on timescales from milliseconds (short-term plasticity) to hours and days (long-term potentiation and depression), and they constitute the primary substrate for learning and memory in the brain. Plasticity rules specify the conditions under which a synapse is strengthened or weakened.
+Synaptic plasticity covers the mechanisms by which connection strength changes in response to neural activity. Timescales span milliseconds (short-term facilitation and depression) to days (long-term potentiation and depression). Plasticity rules specify the exact conditions under which a synapse is strengthened or weakened: the direction, magnitude, and duration of change as a function of activity history.
 
-## Why it matters
+## Relevance
 
-Plasticity rules are the learning algorithms of the brain. They are the biological counterpart of gradient descent in deep learning, and understanding them is essential for designing hardware that can learn autonomously from data without relying on offline training. Implementing spike-timing-dependent plasticity (STDP) or related rules in memristive devices is one of the central challenges of neuromorphic engineering.
+Plasticity rules are the brain's learning algorithms. Implementing them in hardware: STDP in memristive devices in particular is a central problem of neuromorphic engineering: it is the path to on-chip, unsupervised learning without offline training. BCM theory and metaplasticity address what STDP alone cannot: long-run stability and homeostatic control in recurrent networks.
 
-## Core concepts
+## Cross-references
 
-- **Spike-timing-dependent plasticity (STDP)** — synaptic weight changes depend on the precise relative timing of pre- and postsynaptic spikes; causal (pre before post) firing potentiates, anticausal (post before pre) depresses
-- **BCM theory** — the Bienenstock-Cooper-Munro rule introduces a sliding modification threshold, providing homeostatic stability and an explanation for the selectivity of visual cortical neurons
-- **Metaplasticity** — plasticity of plasticity; the history of synaptic activity modulates the threshold and direction of subsequent changes, preventing runaway potentiation or silencing
-- **Rate-based plasticity** — Hebbian and anti-Hebbian rules that depend on firing rate rather than precise spike timing; relevant to rate-coded neuromorphic systems
-- **Short-term synaptic dynamics** — facilitation and depression on timescales of tens to hundreds of milliseconds, providing working memory and gain control without permanent weight changes
-- **Homeostatic plasticity** — synaptic scaling and intrinsic excitability adjustments that maintain network stability over long timescales
-
-## How it connects
-
-Plasticity rules are derived from the biological mechanisms described in [Foundations](../foundations/index.md) and are validated against recordings in [Cultures & MEA](../cultures-mea/index.md). Their hardware implementation motivates much of the work on [Memristors](../memristors/index.md) and [RRAM Devices](../rram-devices/index.md).
-
+Plasticity rules derive from the biological mechanisms in [Foundations](../foundations/index.md) and are validated against recordings in [Cultures & MEA](../cultures-mea/index.md). Their hardware implementation motivates the work on [Memristors](../memristors/index.md) and [RRAM Devices](../rram-devices/index.md).
 
 ## Papers
 
-### 2010
-- [Metaplasticity: the plasticity of synaptic plasticity](2010-abraham-metaplasticity-plasticity-of-synaptic-plasticity.md)
-
 ### 2008
-- [Phenomenological models of synaptic plasticity based on spike timing](2008-morrison-diesmann-gerstner-phenomenological-models-stdp.md)
-- [Spike-timing-dependent plasticity: a Hebbian learning rule](2008-caporale-dan-stdp-hebbian-learning-rule.md)
+
+- [Phenomenological models of synaptic plasticity based on spike timing](https://doi.org/10.1007/s00422-008-0233-1)
+- [Spike-timing-dependent plasticity: a Hebbian learning rule](https://doi.org/10.1146/ANNUREV.NEURO.31.060407.125639)
 
 ### 2006
-- [Spike-timing-dependent plasticity: from synapse to perception](2006-dan-poo-stdp-from-synapse-to-perception.md)
 
-### 2005
-- [Spike timing-dependent plasticity of neural circuits](2005-dan-poo-spike-timing-dependent-plasticity-neural-circuits.md)
+- [Spike-timing-dependent plasticity: from synapse to perception](https://doi.org/10.1152/PHYSREV.00030.2005)
 
 ### 2002
-- [Competitive Hebbian learning through spike-timing-dependent synaptic plasticity](2002-song-miller-abbott-competitive-hebbian-learning-stdp.md)
-- [Spike-timing-dependent synaptic modification induced by natural spike trains](2002-froemke-dan-stdp-natural-spike-trains.md)
+
+- [Spike-timing-dependent synaptic modification induced by natural spike trains](https://doi.org/10.1038/416433a)
 
 ### 2001
-- [Rate, timing, and cooperativity jointly determine cortical synaptic plasticity](2001-sjostrom-rate-timing-cooperativity-cortical-plasticity.md)
+
+- [Rate, timing, and cooperativity jointly determine cortical synaptic plasticity](<https://doi.org/10.1016/S0896-6273(01)00542-6>)
 
 ### 2000
-- [Emotion circuits in the brain](2000-ledoux-emotion-circuits-brain.md)
-- [Synaptic plasticity and memory: an evaluation of the hypothesis](2000-martin-synaptic-plasticity-memory-evaluation-hypothesis.md)
+
+- [Competitive Hebbian learning through spike-timing-dependent synaptic plasticity](https://doi.org/10.1038/78829)
+- [Emotion circuits in the brain](https://doi.org/10.1146/ANNUREV.NEURO.23.1.155)
+- [Synaptic plasticity and memory: an evaluation of the hypothesis](https://doi.org/10.1146/ANNUREV.NEURO.23.1.649)
+- [Synaptic interactions between thalamic inputs to simple cells in cat visual cortex — NMDA & LTP](https://doi.org/10.1523/JNEUROSCI.20-15-05461.2000)
 
 ### 1998
-- [Synaptic modifications in cultured hippocampal neurons: dependence on spike timing, synaptic strength, and postsynaptic cell type](1998-bi-poo-synaptic-modifications-spike-timing-strength-cell-type.md)
+
+- [Synaptic modifications in cultured hippocampal neurons: dependence on spike timing, synaptic strength, and postsynaptic cell type](https://doi.org/10.1523/JNEUROSCI.18-24-10464.1998)
 
 ### 1997
-- [Regulation of synaptic efficacy by coincidence of postsynaptic APs and EPSPs](1997-markram-regulation-synaptic-efficacy-coincidence-aps-epsps.md)
 
-### 1995
-- [A synaptic model of memory: long-term potentiation in the hippocampus](1995-bliss-collingridge-synaptic-model-memory-ltp.md)
+- [Regulation of synaptic efficacy by coincidence of postsynaptic APs and EPSPs](https://doi.org/10.1126/SCIENCE.275.5297.213)
 
-### 1994
-- [Synaptic interactions between thalamic inputs to simple cells in cat visual cortex — NMDA & LTP](1994-destexhe-thalamic-inputs-simple-cells-nmda-ltp.md)
+### 1996
+
+- [Metaplasticity: the plasticity of synaptic plasticity](<https://doi.org/10.1016/s0166-2236(96)80018-x>)
+
+### 1993
+
+- [A synaptic model of memory: long-term potentiation in the hippocampus](https://doi.org/10.1038/361031a0)
 
 ### 1982
-- [Theory for the development of neuron selectivity: orientation specificity and binocular interaction in visual cortex](1982-bienenstock-cooper-munro-development-neuron-selectivity.md)
 
+- [Theory for the development of neuron selectivity: orientation specificity and binocular interaction in visual cortex](https://doi.org/10.1523/JNEUROSCI.02-01-00032.1982)

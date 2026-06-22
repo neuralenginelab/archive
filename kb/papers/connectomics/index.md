@@ -5,45 +5,40 @@ description: Connectome mapping, graph-theoretic analysis, C. elegans, Drosophil
 
 # Connectomics
 
-## What is this domain?
+## Scope
 
-Connectomics is the systematic reconstruction and analysis of neural wiring diagrams at cellular or subcellular resolution. Using serial electron microscopy, expansion microscopy, or light-sheet fluorescence imaging, researchers reconstruct the complete set of neurons and synapses in a tissue volume and represent this as a directed, weighted graph. The resulting connectome encodes the structural substrate within which all neural computations must occur.
+Connectomics is the systematic reconstruction and analysis of neural wiring diagrams at cellular or subcellular resolution. Using serial electron microscopy, expansion microscopy, or light-sheet fluorescence imaging, researchers reconstruct all neurons and synapses in a tissue volume and represent them as a directed, weighted graph. The resulting connectome is the structural substrate within which all neural computation must occur.
 
-## Why it matters
+## Relevance
 
-The connectivity matrix of a neural circuit constrains which computations it can perform and which dynamical states it can express. Connectomes provide ground-truth structural data against which models of network dynamics can be tested, and they reveal organisational principles — small-world topology, rich-club organisation, hub nodes — that may be design targets for neuromorphic architectures. The complete synaptic wiring of small organisms also enables whole-organism neural simulation.
+A circuit's connectivity matrix constrains which computations it can perform and which dynamical states it can express. Connectomes provide structural ground truth against which network models can be tested, and they reveal organisational principles, small-world topology, rich-club structure, hub nodes, that are increasingly used as design targets for neuromorphic architectures. The complete wiring of small organisms enables whole-organism neural simulation: the 302-neuron C. elegans connectome, complete since 1986, remains the canonical benchmark.
 
-## Core concepts
+## Cross-references
 
-- **C. elegans connectome** — the 302-neuron hermaphrodite connectome, fully mapped since 1986, remains the only complete connectome of an adult nervous system and a benchmark for circuit models
-- **Drosophila connectomics** — the FAFB (full adult fly brain) and hemibrain datasets contain tens of thousands of neurons and millions of synapses, enabling analysis of specific circuits including the mushroom body and central complex
-- **Volume electron microscopy** — serial section TEM, FIB-SEM, and SBEM techniques for imaging neural tissue at nanometre resolution; dense reconstruction requires automated segmentation
-- **Graph-theoretic analysis** — measures including degree distribution, clustering coefficient, path length, modularity, and rich-club coefficient characterise network topology and predict functional properties
-- **Human Connectome Project** — diffusion MRI tractography at macro-scale, identifying white matter tracts and regional connectivity; complementary to micro-scale EM approaches
-- **Automated segmentation and proofreading** — deep learning methods (flood-filling networks, 3D U-Nets) for automated neuron segmentation from EM stacks, with human proofreading for quality control
-
-## How it connects
-
-Connectomes provide structural constraints for the network models in [Network Dynamics](../network-dynamics/index.md) and inform our understanding of the cortical circuits detailed in [Cortex Physiology](../cortex-physiology/index.md). The organisational principles revealed by connectomics — modularity, sparse connectivity, hub structure — are increasingly referenced in the architectural design of [Neuromorphic Hardware](../neuromorphic-hw/index.md).
-
+Connectomes provide structural constraints for the network models in [Network Dynamics](../network-dynamics/index.md) and inform the circuit-level detail in [Cortex Physiology](../cortex-physiology/index.md). Organisational principles revealed here, modularity, sparse connectivity, hub structure, are referenced directly in the architectural design of [Neuromorphic Hardware](../neuromorphic-hw/index.md).
 
 ## Papers
 
-### 2021
-- [A complete electron microscopy volume of the brain of adult Drosophila melanogaster](2021-scheffer-complete-electron-microscopy-volume-drosophila-brain.md)
+### 2018
 
-### 2017
-- [A connectome and analysis of the adult Drosophila central brain](2017-zheng-connectome-analysis-adult-drosophila-central-brain.md)
+- [A complete electron microscopy volume of the brain of adult Drosophila melanogaster](https://doi.org/10.1016/j.cell.2018.06.019)
 
-### 2012
-- [The organization of the human cerebral cortex estimated by intrinsic functional connectivity](2012-power-organization-human-cerebral-cortex-functional-connectivity.md)
+### 2020
+
+- [A connectome and analysis of the adult Drosophila central brain](https://doi.org/10.7554/eLife.57443)
+
+### 2011
+
+- [The organization of the human cerebral cortex estimated by intrinsic functional connectivity](https://doi.org/10.1152/jn.00338.2011)
 
 ### 2009
-- [Complex brain networks: graph theoretical analysis of structural and functional systems](2009-bullmore-sporns-complex-brain-networks-graph-theoretical-analysis.md)
+
+- [Complex brain networks: graph theoretical analysis of structural and functional systems](https://doi.org/10.1038/nrn2632)
 
 ### 2005
-- [The human connectome: a structural description of the human brain](2005-sporns-tononi-kotter-human-connectome-structural-description.md)
+
+- [The human connectome: a structural description of the human brain](https://doi.org/10.1371/journal.pcbi.0010042)
 
 ### 1986
-- [The structure of the nervous system of the nematode Caenorhabditis elegans](1986-white-southgate-thomson-brenner-c-elegans-connectome.md)
 
+- [The structure of the nervous system of the nematode Caenorhabditis elegans](https://doi.org/10.1098/rstb.1986.0056)

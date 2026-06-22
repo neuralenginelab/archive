@@ -5,69 +5,72 @@ description: Brain biology, synaptic structure, Hebbian learning, LTP/LTD, astro
 
 # Foundations
 
-## What is this domain?
+## Scope
 
-Foundations covers the biological substrate that neuromorphic computing ultimately seeks to emulate. This includes the cellular architecture of neurons and glia, the molecular machinery of chemical synapses, and the activity-dependent mechanisms by which synaptic efficacy is modified. The synapse — a nanometre-scale junction between two neurons — is the fundamental unit of memory and computation in the brain.
+Foundations maps the biological substrate that neuromorphic systems approximate: neuronal and glial cell architecture, the molecular mechanics of chemical synaptic transmission, and activity-dependent mechanisms of synaptic modification.
+The synapse: a nanometre-scale junction between neurons is the brain's elementary unit of memory and computation.
 
-## Why it matters
+## Relevance
 
-Every spike-based computing system is, at some level of abstraction, an engineering approximation of biological neural circuits. Understanding what is being approximated — and what is being discarded — is essential for evaluating what neuromorphic hardware can and cannot do. The rules governing synaptic plasticity, discovered in biological systems, directly inspire the learning rules implemented in neuromorphic devices.
+Spike-based computing is, at every level of abstraction, an engineering approximation of biological neural circuits. The fidelity and limits of that approximation cannot be assessed without understanding what is being modelled. The plasticity rules implemented in neuromorphic hardware were first characterised in biological tissue.
 
-## Core concepts
+## Cross-references
 
-- **Chemical synapse structure** — presynaptic terminal, synaptic cleft, postsynaptic density, neurotransmitter vesicle release
-- **Hebbian learning** — "Cells that fire together, wire together"; the conceptual basis for associative memory and unsupervised learning
-- **Long-term potentiation (LTP) and long-term depression (LTD)** — activity-dependent strengthening and weakening of synaptic connections, mediated by AMPA and NMDA receptor trafficking
-- **The tripartite synapse** — the astrocyte as an active participant in synaptic signalling, modulating transmission through gliotransmitter release and calcium dynamics
-- **Action potential generation** — voltage-gated ion channels, the sodium-potassium pump, and the threshold mechanism underlying spike generation
-- **Dendritic integration** — how postsynaptic potentials summate in time and space before reaching the axon hillock
-
-## How it connects
-
-This section provides the biological ground truth that motivates both the neuron models in [Neuron Models](../neuron-models/index.md) and the plasticity rules in [Plasticity](../plasticity/index.md). Understanding biological synaptic structure also contextualises the device physics challenges explored in [Memristors](../memristors/index.md) and [RRAM Devices](../rram-devices/index.md).
-
+Biological ground truth established here motivates the models in [Neuron Models](../neuron-models/index.md) and the rules in [Plasticity](../plasticity/index.md). Synaptic structure also contextualises the device physics in [Memristors](../memristors/index.md) and [RRAM Devices](../rram-devices/index.md).
 
 ## Papers
 
 ### 2010
-- [Spike-timing-dependent plasticity: a Hebbian learning rule](2010-caporale-stdp-hebbian-learning-rule.md)
+
+- [Spike-timing-dependent plasticity: a Hebbian learning rule](https://doi.org/10.1146/annurev.neuro.31.060407.125639)
 
 ### 2005
-- [Astrocytes, from brain glue to communication elements: the revolution continues](2005-volterra-astrocytes-brain-glue-communication-elements.md)
-- [Glutamate-mediated astrocyte–neuron signalling](2005-parpura-glutamate-mediated-astrocyte-neuron-signalling.md)
+
+- [Astrocytes, from brain glue to communication elements: the revolution continues](https://doi.org/10.1038/nrn1722)
+- [Glutamate-mediated astrocyte–neuron signalling](https://doi.org/10.1038/369744a0)
 
 ### 2004
-- [LTP and LTD: an embarrassment of riches](2004-malenka-ltp-ltd-embarrassment-of-riches.md)
-- [Synaptic plasticity: taming the beast](2004-abbott-synaptic-plasticity-taming-the-beast.md)
+
+- [LTP and LTD: an embarrassment of riches](https://doi.org/10.1016/j.neuron.2004.09.012)
+- [Synaptic plasticity: taming the beast](https://doi.org/10.1038/81453)
 
 ### 2000
-- [Emotion circuits in the brain](2000-ledoux-emotion-circuits-brain.md)
-- [Synaptic plasticity and memory: an evaluation of the hypothesis](2000-martin-synaptic-plasticity-memory-evaluation.md)
+
+- [Emotion circuits in the brain](https://doi.org/10.1146/ANNUREV.NEURO.23.1.155)
+- [Synaptic plasticity and memory: an evaluation of the hypothesis](https://doi.org/10.1146/annurev.neuro.23.1.649)
 
 ### 1999
-- [Tripartite synapses: glia, the unacknowledged partner](1999-araque-tripartite-synapses-glia-unacknowledged-partner.md)
+
+- [Tripartite synapses: glia, the unacknowledged partner](<https://doi.org/10.1016/s0166-2236(98)01349-6>)
 
 ### 1998
-- [Synaptic modifications in cultured hippocampal neurons: dependence on spike timing, synaptic strength, and postsynaptic cell type](1998-bi-poo-synaptic-modifications-cultured-hippocampal-neurons.md)
+
+- [Synaptic modifications in cultured hippocampal neurons: dependence on spike timing, synaptic strength, and postsynaptic cell type](https://doi.org/10.1523/JNEUROSCI.18-24-10464.1998)
 
 ### 1997
-- [Regulation of synaptic efficacy by coincidence of postsynaptic APs and EPSPs](1997-markram-regulation-synaptic-efficacy-coincidence-postsynaptic-aps-epsps.md)
+
+- [Regulation of synaptic efficacy by coincidence of postsynaptic APs and EPSPs](https://doi.org/10.1126/science.275.5297.213)
 
 ### 1994
-- [Synaptic interactions between thalamic inputs to simple cells in cat visual cortex — NMDA & LTP](1994-destexhe-synaptic-interactions-thalamic-inputs-simple-cells.md)
+
+- [Synaptic interactions between thalamic inputs to simple cells in cat visual cortex — NMDA & LTP](https://doi.org/10.1523/JNEUROSCI.20-15-05461.2000)
 
 ### 1993
-- [A synaptic model of memory: long-term potentiation in the hippocampus](1993-bliss-synaptic-model-memory-long-term-potentiation-hippocampus.md)
+
+- [A synaptic model of memory: long-term potentiation in the hippocampus](https://doi.org/10.1038/361031a0)
 
 ### 1982
-- [Theory for the development of neuron selectivity: orientation specificity and binocular interaction in visual cortex](1982-bienenstock-development-neuron-selectivity-visual-cortex.md)
+
+- [Theory for the development of neuron selectivity: orientation specificity and binocular interaction in visual cortex](https://doi.org/10.1523/JNEUROSCI.02-01-00032.1982)
 
 ### 1973
-- [Long-lasting potentiation of synaptic transmission in the dentate area of the anaesthetized rabbit following stimulation of the perforant path](1973-bliss-lomo-long-lasting-potentiation-dentate-path.md)
+
+- [Long-lasting potentiation of synaptic transmission in the dentate area of the anaesthetized rabbit following stimulation of the perforant path](https://doi.org/10.1113/jphysiol.1973.sp010273)
 
 ### 1952
-- [A quantitative description of membrane current and its application to conduction and excitation in nerve](1952-hodgkin-huxley-quantitative-description-membrane-current.md)
+
+- [A quantitative description of membrane current and its application to conduction and excitation in nerve](https://doi.org/10.1113/jphysiol.1952.sp004764)
 
 ### 1949
-- [The Organization of Behavior](1949-hebb-organization-of-behavior.md)
 
+- [The Organization of Behavior](https://pure.mpg.de/rest/items/item_2346268_3/component/file_2346267/content)

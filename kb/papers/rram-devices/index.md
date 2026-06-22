@@ -5,78 +5,80 @@ description: Resistive RAM, oxide switching, filament formation, sneak currents,
 
 # RRAM Devices
 
-## What is this domain?
+## Scope
 
-Resistive random-access memory (RRAM) is a class of non-volatile memory technology in which data is stored as the resistance state of a metal-insulator-metal stack. Switching between high-resistance (HRS) and low-resistance (LRS) states is achieved by the formation and dissolution of conductive filaments — typically composed of oxygen vacancies or metal cations — within a thin oxide layer. RRAM devices are among the most mature memristive technologies and have reached commercial production in several forms.
+Resistive RAM (RRAM) stores data as the resistance state of a metal-insulator-metal stack. Switching between high-resistance and low-resistance states proceeds through the formation and rupture of nanoscale conductive filaments: oxygen vacancies or metal cations driven through a thin oxide layer by electric field, Joule heating, and redox reactions. RRAM is among the most mature memristive technologies, with commercial deployment in multiple forms.
 
-## Why it matters
+## Relevance
 
-RRAM offers a compelling combination of properties for neuromorphic computing: nanoscale scalability, CMOS compatibility, analogue conductance tuning, low switching energy, and non-volatility. Dense crossbar arrays of RRAM devices can perform vector-matrix multiplication in the analogue domain at the location of weight storage, eliminating the von Neumann bottleneck and enabling in-memory computing at a fraction of the energy cost of digital approaches.
+RRAM combines the properties neuromorphic computing requires: nanoscale footprint, CMOS compatibility, analogue conductance tuning, low switching energy, non-volatility. Crossbar arrays perform vector-matrix multiplication in the analogue domain at the site of weight storage, eliminating the von Neumann bottleneck entirely. The principal obstacles are stochastic filament dynamics producing cycle-to-cycle variability, and sneak currents corrupting reads in passive arrays without selector devices.
 
-## Core concepts
+## Cross-references
 
-- **Filamentary switching mechanism** — set (LRS) and reset (HRS) transitions involve the formation and rupture of nanoscale conductive filaments driven by Joule heating, ion drift, and redox reactions
-- **Forming process** — the initial high-voltage electroforming step that creates the first conductive filament and establishes the switching regime; a source of device-to-device variability
-- **Cycle-to-cycle and device-to-device variability** — stochastic filament dynamics lead to resistance distributions rather than fixed resistance values, a major challenge for reliable analogue weight storage
-- **Sneak current paths** — in passive crossbar arrays without selector devices, current leaks through neighbouring rows and columns, corrupting read operations and wasting power
-- **Selector devices** — two-terminal nonlinear elements (threshold switches, diodes, MOSFETs) placed in series with each RRAM cell to suppress sneak currents and enable individual cell addressing
-- **Multi-level cell (MLC) operation** — careful control of compliance current, pulse amplitude, and duration allows programming of multiple resistance levels per cell, increasing information density
-
-## How it connects
-
-RRAM devices are the principal physical realisation of the memristive systems theorised in [Memristors](../memristors/index.md). Their integration into large-scale arrays connects directly to the architecture of [Neuromorphic Hardware](../neuromorphic-hw/index.md), and their analogue dynamics are analysed against the plasticity rules in [Plasticity](../plasticity/index.md).
-
+RRAM is the principal physical realisation of the memristive systems theorised in [Memristors](../memristors/index.md). Array-level integration connects directly to [Neuromorphic Hardware](../neuromorphic-hw/index.md), and analogue conductance dynamics are evaluated against the plasticity rules in [Plasticity](../plasticity/index.md).
 
 ## Papers
 
 ### 2022
-- [2022 roadmap on low power e-beam based lithography](2022-lanza-roadmap-low-power-e-beam-lithography.md)
+
+- [Roadmap on low power e-beam based lithography](https://irds.ieee.org/images/files/pdf/2022/2022IRDS_Litho.pdf)
 
 ### 2020
-- [A review of memristive neuromorphic devices and circuits](2020-zidan-strachan-lu-review-memristive-neuromorphic-devices.md)
-- [Efficient and self-adaptive in-situ learning in multilayer memristor neural networks](2020-li-efficient-self-adaptive-insitu-learning-memristor-networks.md)
+
+- [A review of memristive neuromorphic devices and circuits](https://advanced.onlinelibrary.wiley.com/doi/10.1002/aisy.202300136)
+- [Efficient and self-adaptive in-situ learning in multilayer memristor neural networks](https://www.nature.com/articles/s41467-018-04484-2)
 
 ### 2019
-- [Ferroelectric tunnel junctions for neuromorphic computing](2019-boyn-ferroelectric-tunnel-junctions-neuromorphic-computing.md)
+
+- [Ferroelectric tunnel junctions for neuromorphic computing](https://www.sciencedirect.com/science/article/pii/S0925838825034309)
 
 ### 2018
-- [In-memory computing with resistive switching devices](2018-ielmini-wong-inmemory-computing-resistive-switching-devices.md)
+
+- [In-memory computing with resistive switching devices](https://www.nature.com/articles/s41928-018-0092-2)
 
 ### 2017
-- [Emerging non-volatile memories for artificial neural networks](2017-yu-emerging-nonvolatile-memories-artificial-neural-networks.md)
-- [Short-term memory to long-term memory transition in a nanoscale memristor](2017-wang-short-term-long-term-memory-transition-memristor.md)
+
+- [Emerging non-volatile memories for artificial neural networks](https://pubs.acs.org/doi/10.1021/acsomega.5c01414)
+- [Short-term memory to long-term memory transition in a nanoscale memristor](https://pubs.acs.org/doi/10.1021/nn202983n)
 
 ### 2015
-- [Fully hardware-implemented memristor convolutional neural network](2015-yao-hardware-implemented-memristor-cnn.md)
-- [Resistive switching materials for information processing](2015-yang-strukov-stewart-resistive-switching-materials.md)
-- [Training and operation of an integrated neuromorphic network based on metal-oxide memristors](2015-prezioso-integrated-neuromorphic-network-metaloxide-memristors.md)
+
+- [Fully hardware-implemented memristor convolutional neural network](https://www.nature.com/articles/s41586-020-1942-4)
+- [Resistive switching materials for information processing](https://www.researchgate.net/publication/338551638_Resistive_switching_materials_for_information_processing)
+- [Training and operation of an integrated neuromorphic network based on metal-oxide memristors](https://www.nature.com/articles/nature14441)
 
 ### 2013
-- [Integration of nanoscale memristor synapses in neuromorphic computing architectures](2013-indiveri-integration-nanoscale-memristor-synapses.md)
-- [Observation of conducting filament growth in nanoscale resistive memories](2013-yang-observation-conducting-filament-growth.md)
-- [On spike-timing-dependent-plasticity, memristive devices, and building a self-learning visual cortex](2013-zamarreno-ramos-stdp-memristive-devices-visual-cortex.md)
-- [STDP and STDP variations with memristors for spiking neuromorphic learning systems](2013-serrano-gotarredona-stdp-variations-memristors.md)
-- [Synaptic electronics: materials, devices and applications](2013-kuzum-yu-wong-synaptic-electronics-materials-devices-applications.md)
+
+- [Integration of nanoscale memristor synapses in neuromorphic computing architectures](https://doi.org/10.1088/0957-4484/24/38/384010)
+- [Observation of conducting filament growth in nanoscale resistive memories](https://doi.org/10.1038/ncomms1737)
+- [On spike-timing-dependent-plasticity, memristive devices, and building a self-learning visual cortex](https://arxiv.org/abs/1304.7076)
+- [STDP and STDP variations with memristors for spiking neuromorphic learning systems](https://doi.org/10.3389/fnins.2013.00002)
+- [Synaptic electronics: materials, devices and applications](https://doi.org/10.1088/0957-4484/24/38/384001)
 
 ### 2012
-- [Metal–oxide RRAM](2012-wong-metal-oxide-rram.md)
+
+- [Metal–oxide RRAM](https://www.sciencedirect.com/science/article/abs/pii/S0272884217311264?__cf_chl_rt_tk=BbAAI5UbNUx7TUFsbTrGBIztXsI7XGOoGeDq_3f2yUE-1781788666-1.0.1.1-ISshibmRHMNSoRWSJQXl3hs3ftcn7xDuLPYFdB0dvbc)
 
 ### 2011
-- [Electrochemical metallization memories — fundamentals, applications, prospects](2011-valov-electrochemical-metallization-memories.md)
+
+- [Electrochemical metallization memories — fundamentals, applications, prospects](https://doi.org/10.1088/0957-4484/22/25/254003)
 
 ### 2010
-- [Atomic structure of conducting nanofilaments in TiO2 resistive switching memory](2010-kwon-atomic-structure-conducting-nanofilaments-tio2.md)
-- [Spike-timing-dependent learning in memristive nanodevices](2010-snider-stdp-learning-memristive-nanodevices.md)
+
+- [Atomic structure of conducting nanofilaments in TiO2 resistive switching memory](https://www.nature.com/articles/nnano.2009.456)
+- [Spike-timing-dependent learning in memristive nanodevices](https://ieeexplore.ieee.org/document/4585796/)
 
 ### 2009
-- [Redox-based resistive switching memories — nanoionic mechanisms, prospects, and challenges](2009-waser-dittmann-staikov-szot-redox-switching-memories.md)
+
+- [Redox-based resistive switching memories — nanoionic mechanisms, prospects, and challenges](https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.200900375)
 
 ### 2008
-- [Comparison of emerging memories (RRAM, PCM, MRAM) for memristive synapses](2008-burr-comparison-emerging-memories-memristive-synapses.md)
-- [How we found the missing memristor](2008-williams-how-we-found-the-missing-memristor.md)
-- [Memristive switching mechanism for metal/oxide/metal nanodevices](2008-yang-pickett-memristive-switching-metal-oxide-metal.md)
-- [Resistive switching in transition metal oxides](2008-sawa-resistive-switching-transition-metal-oxides.md)
+
+- [Comparison of emerging memories (RRAM, PCM, MRAM) for memristive synapses](https://ieeexplore.ieee.org/document/4796677)
+- [How we found the missing memristor](https://doi.org/10.1038/nature06932)
+- [Memristive switching mechanism for metal/oxide/metal nanodevices](https://doi.org/10.1038/nnano.2008.160)
+- [Resistive switching in transition metal oxides](<https://doi.org/10.1016/S1369-7021(08)70119-6>)
 
 ### 2007
-- [Nanoionics-based resistive switching memories](2007-waser-aono-nanoionics-based-resistive-switching-memories.md)
 
+- [Nanoionics-based resistive switching memories](https://doi.org/10.1038/nmat2023)
