@@ -2,7 +2,7 @@
 
 `If there is a God, he's a great mathematician! ~ Paul M. Dirac`
 
-A curated archive tracing the intellectual path from biological neural systems to neuromorphic computation — spanning foundational neuroscience, synaptic plasticity, computational neuron models, network dynamics, memristive physics, and brain-inspired hardware.
+A curated archive tracing the intellectual path from biological neural systems to neuromorphic computation: spanning foundational neuroscience, synaptic plasticity, computational neuron models, network dynamics, memristive physics, and brain-inspired hardware.
 
 **110+ works** across **10 research domains**, covering **1907–2025**.
 
@@ -12,57 +12,57 @@ A curated archive tracing the intellectual path from biological neural systems t
 
 :::{card} Foundations
 :link: papers/foundations/index.md
-Brain biology, synaptic structure, Hebbian learning, LTP/LTD, astrocytes, and the tripartite synapse — the biological substrate from which every other domain derives.
+The biological substrate every other domain derives from. Neuronal architecture, synaptic transmission, LTP, LTD, and the tripartite synapse.
 :::
 
 :::{card} Neuron Models
 :link: papers/neuron-models/index.md
-Hodgkin–Huxley, integrate-and-fire, AdEx, Izhikevich, and FitzHugh–Nagumo. Mathematical abstractions of neural dynamics, from biophysical fidelity to computational efficiency.
+Mathematical abstractions of single-neuron electrical dynamics. Hodgkin-Huxley, integrate-and-fire, AdEx, Izhikevich, FitzHugh-Nagumo.
 :::
 
 :::{card} Plasticity
 :link: papers/plasticity/index.md
-STDP, BCM theory, metaplasticity, and rate- and timing-based learning rules. The mechanisms by which synapses encode, consolidate, and forget.
+The mechanisms by which synapses strengthen, weaken, and stabilise. STDP, BCM theory, metaplasticity, rate-based and timing-based rules.
 :::
 
 :::{card} Cultures & MEA
 :link: papers/cultures-mea/index.md
-Neuronal cultures, multi-electrode arrays, burst dynamics, and closed-loop stimulation. Learning observed directly in living networks.
+Living neural networks recorded directly on electrode arrays. Burst dynamics, closed-loop stimulation, and in vitro plasticity.
 :::
 
 :::{card} Memristors
 :link: papers/memristors/index.md
-Chua's circuit theory, memristive systems, and SPICE models. The fourth fundamental circuit element as a physical analogue of the synapse.
+The fourth fundamental circuit element as physical analogue of the synapse. Chua's circuit theory, memristive systems, SPICE models.
 :::
 
 :::{card} RRAM Devices
 :link: papers/rram-devices/index.md
-Resistive RAM, oxide switching, filament dynamics, and crossbar arrays. Device physics and materials science behind memristive in-memory computing.
+Device physics and materials behind memristive in-memory computing. Oxide switching, filament dynamics, crossbar arrays.
 :::
 
 :::{card} Neuromorphic Hardware
 :link: papers/neuromorphic-hw/index.md
-Loihi, TrueNorth, SpiNNaker, Neurogrid, and analog VLSI. Silicon architectures designed to run spiking neural networks at scale and ultra-low power.
+Silicon architectures that run spiking neural networks at scale and ultra-low power. Loihi, TrueNorth, SpiNNaker, Neurogrid, analog VLSI.
 :::
 
 :::{card} Network Dynamics
 :link: papers/network-dynamics/index.md
-Neural oscillations, gamma and theta rhythms, synchrony, Hopfield networks, and cortical dynamics. Emergent behaviour from coupled neural populations.
+Emergent behaviour from coupled neural populations. Oscillations, synchrony, attractor states, and the link between connectivity and computation.
 :::
 
 :::{card} Connectomics
 :link: papers/connectomics/index.md
-Connectome mapping, graph-theoretic analysis, _C. elegans_, Drosophila, and the Human Connectome Project. The topological structure of neural circuits.
+The topological structure of neural circuits at cellular resolution. Wiring diagrams from C. elegans to Drosophila to the human brain.
 :::
 
 :::{card} Cortex Physiology
 :link: papers/cortex-physiology/index.md
-Place cells, grid cells, mirror neurons, visual and auditory cortex. How specialised cortical circuits instantiate specific computational functions.
+How specialised cortical circuits implement specific computations. Place cells, grid cells, visual cortex, and the coding principles they reveal.
 :::
 
 :::{card} Emerging Frontiers
 :link: papers/extra/index.md
-Ferroelectric synapses, organic neuromorphic devices, hybrid SNN architectures, and AER systems. The active boundary of the field.
+The active boundary of the field. Ferroelectric synapses, organic devices, hybrid SNN architectures, and AER systems.
 :::
 
 ::::
